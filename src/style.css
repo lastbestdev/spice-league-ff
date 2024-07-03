@@ -38,6 +38,7 @@ section {
 	max-width: 1000px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(25, 1, 1, 0.99), rgba(0, 0, 0, 0.9));
 	padding: 1rem;
+	margin: 0.5rem;
 }
 
 h1 {
