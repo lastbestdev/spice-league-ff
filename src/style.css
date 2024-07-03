@@ -26,14 +26,38 @@ body {
 main {
 	flex: auto;
 	display: flex;
-	align-items: center;
 	max-width: 1280px;
 	margin: 0 auto;
 	text-align: left;
 }
 
+section {
+	min-width: 600px;
+	width: 1000px;
+	max-width: 1000px;
+}
+
 h1 {
-	font-size: 2rem;
+	font-size: 2.4rem;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+h3 {
+	font-size: 1.4rem;
+}
+
+p {
+	font-size: 1.2rem;
+	font-weight: 250;
+}
+
+li {
+	list-style: square;
+	font-size: 1.2rem;
+	font-weight: 250;
 }
 
 @media (max-width: 639px) {

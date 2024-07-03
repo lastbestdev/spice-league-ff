@@ -1,6 +1,6 @@
 export function Season() {
 	return (
-		<section>
+		<section style="page">
 			<h1>2024-25 Season 🏈</h1>
 
 			<h2>Buy-in & Pay-out</h2>

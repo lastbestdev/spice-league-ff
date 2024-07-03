@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.headerLeft h2 {
+  font-size: 1.4rem;
+}
+
 .logo {
   margin: 0;
 }

@@ -1,6 +1,6 @@
 export function Constitution() {
 	return (
-		<section>
+		<section style="page">
 			<h1>Constitution 📜</h1>
 
 			<h2>Format</h2>
@@ -11,7 +11,7 @@ export function Constitution() {
 
 			<h2>Trades</h2>
 			<p>The league will allow trades amongst league members up until the trade deadline. When 2 teams agree on a trade, it will be subject to vote by the league for confirmation or veto. All votes should be cast in the fantasy app used by the league for that year.</p> 
-			<p><strong>Once your vote has been cast, it may not be changed under any circumstances. This is a zero tolerance policy - please be certain of your vote before it is cast.</strong> Reminder: the commissioner reserves the right to reverse any trade at any time by their sole discretion (see "Commissioner's Privilege").</p>
+			<p><strong>Once you have cast your vote, it may not be changed under any circumstances. This is a zero tolerance policy, so make certain of your choice before casting your vote.</strong> Reminder: the commissioner reserves the right to reverse any trade at any time by their sole discretion (see "Commissioner's Privilege").</p>
 
 			<h2>Playoffs</h2>
 			<p>The top 6 teams by regular season record will be entered into the playoff bracket. The top 2 teams by regular season record will receive a first-round bye. Any tiebreakers in the case of identical win-loss records will be determined by total points scored for each team. </p>
@@ -35,7 +35,7 @@ export function Constitution() {
 				<ul>
 					<li>1st offense - $5</li>
 					<li>2nd offense - $25</li>
-					<li>3rd offense - forfeit league spot for following year</li>
+					<li><strong>3rd offense - forfeit league spot for following year</strong></li>
 				</ul>
 			</p>
 			<p>All fines are payable directly to the commissioner via Venmo or Cash App. All fines will be added into the season's winnings pot. </p>
