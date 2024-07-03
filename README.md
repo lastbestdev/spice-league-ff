@@ -1,12 +1,9 @@
-# `create-preact`
+# spice-league-ff
+website code for my fantasy football league's website
+(created with `npm init preact`)
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
 
-<h3 align="center">Get started using Preact and Vite!</h3>
-
-## Getting Started
+## Development
 
 -   `npm run dev` - Starts a dev server at http://localhost:5173/
 
