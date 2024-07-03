@@ -1,0 +1,22 @@
+img {
+	margin-bottom: 1rem;
+}
+
+.primaryLogo:hover {
+	filter: drop-shadow(0 0 2em #f1391d);
+}
+
+.section {
+	margin-top: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 1.5rem;
+}
+
+@media (max-width: 639px) {
+	.section {
+		margin-top: 3rem;
+		grid-template-columns: 1fr;
+		row-gap: 1rem;
+	}
+}
