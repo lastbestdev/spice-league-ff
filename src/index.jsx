@@ -5,7 +5,7 @@ import { Header } from './components/Header.jsx';
 import { Home } from './pages/Home/index.jsx';
 import { About } from './pages/About/index.jsx';
 import { Constitution } from './pages/Constitution/index.jsx';
-import { Season } from './pages/Season/2024.jsx';
+import { Season } from './pages/Season/index.jsx';
 import { NotFound } from './pages/_404.jsx';
 import './style.css';
 
