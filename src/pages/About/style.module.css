@@ -1,0 +1,18 @@
+.commishHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+}
+
+.commishImg {
+  align-self: flex-start;
+  border-radius: 100%;
+}
+
+@media (max-width: 639px) {
+	.commishImg {
+    align-self: center;
+    border-radius: 100%;
+  }
+}
