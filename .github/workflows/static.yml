@@ -35,5 +35,6 @@ jobs:
           # upload build artifacts only
           path: 'dist/'
       - name: Deploy to GitHub Pages
+        if: github.actor == 'braddeiberrrrt'
         id: deployment
         uses: actions/deploy-pages@v4
