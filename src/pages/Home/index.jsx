@@ -1,28 +1,26 @@
-import preactLogo from '../../assets/preact.svg';
+import spiceLogo from '../../assets/ff_logo_primary.png';
 import './style.css';
 
 export function Home() {
 	return (
 		<div class="home">
-			<a href="https://preactjs.com" target="_blank">
-				<img src={preactLogo} alt="Preact logo" height="160" width="160" />
-			</a>
-			<h1>Get Started building Vite-powered Preact Apps </h1>
+			<img src={spiceLogo} alt="spice league logo" height="500" width="500" />
+			<h1>Spice League Fantasy 🌶️ 🥵</h1>
 			<section>
 				<Resource
-					title="Learn Preact"
-					description="If you're new to Preact, try the interactive tutorial to learn important concepts"
-					href="https://preactjs.com/tutorial"
+					title="Constitution 📜"
+					description="View rules & regulations"
+					href="/constitution"
 				/>
 				<Resource
-					title="Differences to React"
-					description="If you're coming from React, you may want to check out our docs to see where Preact differs"
-					href="https://preactjs.com/guide/v10/differences-to-react"
+					title="Current Season 🏈"
+					description="2024-25 season details"
+					href="/season/2024"
 				/>
 				<Resource
-					title="Learn Vite"
-					description="To learn more about Vite and how you can customize it to fit your needs, take a look at their excellent documentation"
-					href="https://vitejs.dev"
+					title="About 🧐"
+					description="Meet the Spice League"
+					href="/about"
 				/>
 			</section>
 		</div>
@@ -31,7 +29,7 @@ export function Home() {
 
 function Resource(props) {
 	return (
-		<a href={props.href} target="_blank" class="resource">
+		<a href={props.href} class="resource">
 			<h2>{props.title}</h2>
 			<p>{props.description}</p>
 		</a>
