@@ -1,4 +1,4 @@
-import { render } from 'preact';
+import { render } from 'preact-render-to-string';
 import { LocationProvider, Router, Route } from 'preact-iso';
 
 import { Header } from './components/Header.jsx';
