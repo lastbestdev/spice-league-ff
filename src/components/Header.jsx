@@ -6,7 +6,7 @@ export function Header() {
 		<header class={style.header}>
 			<a href="/" class={style.headerLeft}>
 				<img src={spiceLogo} alt="spice league logo" height="80" width="80" class={style.logo} />
-				<h2>Spice League Fantasy &nbsp; 🏈 🏆</h2>				
+				<h2>Spice League Fantasy 🏈 🏆</h2>				
 			</a>
 			<nav>
 				<a alt="go back" onClick={() => history.back()} class={style.navlink}>
