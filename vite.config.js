@@ -8,6 +8,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
-  base: process.env.GH_PAGES ? "/spice-league-ff/" : "/",
+  base: process.env.IS_DEVELOPMENT == "true" ? "/" : "/spice-league-ff/",
   publicDir: "public",
 });
