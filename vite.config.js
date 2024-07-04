@@ -1,14 +1,7 @@
-import { defineConfig } from "vite";
-import preact from "@preact/preset-vite";
-import { BASE_URL_PATH } from "./src/utils";
+import { defineConfig } from 'vite';
+import preact from '@preact/preset-vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [preact()],
-  root: "./",
-  build: {
-    outDir: "dist",
-  },
-  base: BASE_URL_PATH,
-  publicDir: "public",
+	plugins: [preact()],
 });
