@@ -2,6 +2,8 @@
 website code for my fantasy football league's website
 (created with `npm init preact`)
 
+## Deployment
+The deployment of this site is managed by Cloudflare Pages. The live site is at: https://spice-league-ff.pages.dev/
 
 ## Development
 
