@@ -1,6 +1,7 @@
 import spiceLogo from '../../assets/ff_logo_primary.png';
 import style from './style.module.css';
 import { Resource } from '../../components/Resource';
+import { getRelativeLink } from '../../utils';
 
 export function Home() {
 	return (
@@ -11,17 +12,17 @@ export function Home() {
 				<Resource
 					title="Constitution 📜"
 					description="View rules & regulations"
-					href="/constitution"
+					href={getRelativeLink("constitution")}
 				/>
 				<Resource
 					title="Current Season 🏈"
 					description="2024-25 season details"
-					href="/season/2024"
+					href={getRelativeLink("season/2024")}
 				/>
 				<Resource
 					title="About 🧐"
 					description="Meet the Spice League"
-					href="/about"
+					href={getRelativeLink("about")}
 				/>
 			</section>
 		</div>

@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import preact from "@preact/preset-vite";
+import { BASE_URL_PATH } from "./src/utils";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,6 +9,6 @@ export default defineConfig({
   build: {
     outDir: "dist",
   },
-  base: process.env.IS_DEVELOPMENT == "true" ? "/" : "/spice-league-ff/",
+  base: BASE_URL_PATH,
   publicDir: "public",
 });
