@@ -2,6 +2,9 @@ export function Season() {
 	return (
 		<section style="page">
 			<h1>2024-25 Season 🏈</h1>
+            
+            <h2>League Openings</h2>
+            <strong>1 position currently available! Please email bradeibert7@gmail.com with your name & reference (i.e. name of current league member referring you)</strong>
 
 			<h2>Buy-in & Pay-out</h2>
 			<p>TBD - check back soon!</p>
