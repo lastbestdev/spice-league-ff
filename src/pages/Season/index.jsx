@@ -18,8 +18,8 @@ export function Season() {
 			<h2>Important Dates</h2>
 			<ul>
 				<li>League buy-ins paid: 8/15</li>
-				<li>Draft day: TBD, ~around Labor Day</li>
-				<li>Trade deadline: TBD</li>
+				<li>Draft day: Wednesday, 9/4 @ 7:30pm Mountain</li>
+				<li>Trade deadline: Wednesday, 12/11 @ 12pm Mountain</li>
 			</ul>
 
 			<h2>Draft Order</h2>
