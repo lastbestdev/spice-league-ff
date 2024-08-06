@@ -1,4 +1,5 @@
 import commishPic from '../../assets/comish_pic.webp'
+import loser2024pic from '../../assets/2024_loser.png'
 import style from './style.module.css'
 
 export function About() {
@@ -7,13 +8,16 @@ export function About() {
 	return (
 		<section style="page">
 			<h1>About 🧐</h1>
-			<h2>The League</h2>
-			<p>The Spice League is an assembly of close friends & football fans that convene every year for a fantasy football competition. Though the league has been around for several years, it experienced a change in leadership when Brad Deibert was appointed league commissioner in 2023.</p>
-
-			<h2>Past League Winners</h2>
+			<h2>Past Champions</h2>
 			<ul>
 				<li><strong>2023-24: Quentin Foust</strong> (record: 11-3, 1st round: Derrick Henry)</li>
 			</ul>
+
+			<h2>Past Losers</h2>
+			<span class={style.losersItem}><strong>2023-24:</strong> <img src={loser2024pic} alt="2024 loser pic" height="240" width="240"/></span>
+
+			<h2>The League</h2>
+			<p>The Spice League is an assembly of close friends & football fans that convene every year for a fantasy football competition. Though the league has been around for several years, it experienced a change in leadership when Brad Deibert was appointed league commissioner in 2023.</p>
 
 			<div class={style.commishHeader}>
 				<div>
