@@ -20,7 +20,7 @@ export function Season() {
 			</ul>
 
 			<h2>Draft Order</h2>
-			<p>TBD - check back soon!</p>
+			<p>Watch <a href="https://100yardrush.com/v/ZTAmc6hShX">here</a></p>
 		</section>
 	);
 }
