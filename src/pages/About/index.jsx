@@ -1,4 +1,5 @@
 import commishPic from "../../assets/comish_pic.webp";
+import commishPic2 from "../../assets/the-gibbest-the-goggest.png";
 import loser2024pic from "../../assets/2024_loser.png";
 import loser2025pic from "../../assets/2025_loser.png";
 import style from "./style.module.css";
@@ -103,7 +104,7 @@ export function About() {
           <div>
             {isMobile && (
               <img
-                src={commishPic}
+                src={commishPic2}
                 alt="commissioner pic"
                 height="240"
                 width="240"
@@ -121,7 +122,7 @@ export function About() {
           </div>
           {!isMobile && (
             <img
-              src={commishPic}
+              src={commishPic2}
               alt="commissioner pic"
               height="240"
               width="240"
