@@ -1,22 +1,31 @@
 .commishHeader {
-  margin-top: 32px;
+  margin-top: 8px;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: start;
   gap: 2rem;
+}
+
+.losersContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 32px;
+  max-height: 400px;
 }
 
 .losersItem {
   padding: 16px;
   display: flex;
-  gap: 16px;
   border: 1px solid white;
   border-radius: 20px;
-  width: fit-content;
+  width: 300px;
+  height: 300px;
 }
 
 .commishImg {
-  align-self: flex-start;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 100%;
 }
 
