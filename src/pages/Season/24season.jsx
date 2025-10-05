@@ -1,4 +1,4 @@
-export function Season() {
+export function Season24() {
 	return (
 		<section style="page">
 			<h1>2024-25 Season 🏈</h1>
