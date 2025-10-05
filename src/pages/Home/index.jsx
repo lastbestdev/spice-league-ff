@@ -15,8 +15,8 @@ export function Home() {
 				/>
 				<Resource
 					title="Current Season 🏈"
-					description="2024-25 season details"
-					href="/season/2024"
+					description="2025-26 season details"
+					href="/season/2025"
 				/>
 				<Resource
 					title="About 🧐"
